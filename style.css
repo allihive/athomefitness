@@ -1,0 +1,149 @@
+/* ------------------------------------------------------------------------------ 
+
+This is your stylesheet, it's been pre-configured with basic 
+settings and resets that is needed.
+
+The star(*) represents all elements.
+
+------------------------------------------------------------------------------*/
+.flex-header{
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-bar input[type=text]{
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+.flex-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img{
+  display: flex;
+  justify-content: flex-start;
+}
+.hero-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  } 
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.card-2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.card-3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.card-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.slide-text{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 24px;
+}
+
+body {
+  font-family: "Cormorant Garamond", sans-serif;
+  -webkit-font-smoothing: antialiased; /* Makes the text look "smoother" */
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F2ECE4; /* Makes the text look "smoother" in Firefox */
+  box-sizing: border-box; /* Makes sure that all elements has same box-sizing preference */
+  margin: 24px; /* To avoid unwanted default margins */
+  padding: 24px;
+}
+
+header {
+  font-family: "Cormorant Garamond", sans-serif;
+  height: 100px;
+  background-color: #F2ECE4;
+}
+main {
+  background-color: #F2ECE4;
+}
+
+hero{
+  background-color: #525B64;
+  border-radius: 30px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- 
+
+Below are some of the elements that should be a part of your 
+handoff, fill in the styles and add those who are missing*/
+h1 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 40px;
+  color: #F2ECE4;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 30px
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 25px;
+  color: #f2Ece4;
+}
+
+h4 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 20px
+}
+
+
+p {
+  color: #000000;
+}
+
+a {
+  font-family: "Cormorant Garamond", sans-serif;
+  columns: #000000;
+  font-weight: normal;
+}
+
+/* This is the syntax for hover styling. You usually style these right after the a-tag */
+a:hover {
+  color: red;
+}

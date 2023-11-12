@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 👇 This is the head of your website. All scripts are imported here,
+fonts, meta-data, favicon and many other things are declared here, as well as 
+title and the import of your stylesheet. -->
+  <head>
+    <meta charset="utf-8" />
+    <!-- 👇 Imports stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <title>At Home Fitness</title>
+  </head>
+ 
+
+  <!------------ 👇 This is where the visual page starts ------------>
+  <body>
+    <header>
+      <!-- This is the header section. In here you usually place the logotype and the
+      navigation. -->
+      <img class="logo" src="./assets/logopic.png" />
+        <header class = "flex-nav">
+         <a href="#">VIDEOS</a>
+         <a href="#">WORKOUT PLAN</a>
+         <a href="#">TRACKER</a>
+         <a href="#">FAVORITES</a>
+         <div class = "seach-bar">
+          <input type="text" placeholder = "SEARCH">
+         </div>
+        </header>
+        
+    <main>
+      <!-- In the main section you usually place the main content.-->
+    <hero class = "flex-hero">  
+      <div class = "hero-img"><img src="./assets/hero.png" /></div>
+      <div class = "hero-title">
+        <h1>AT HOME FITNESS</h1>
+        <h3>Helping you move in the comfort of your own home</h3>
+      </div>
+    </hero>
+      <!-- Inside the main section, you can create additional sections. Working
+        like this is called semantic, or using semantic tags, which in other
+        words mean that you use correct elements for the right places, and not
+        just use something like a div everywhere. -->
+        <!-- To apply styling to an element, you add a class to it. This class makes
+      it possible to style this element using your stylsheet. -->
+        <h2>WORKOUT</h2>
+        <div class= "slide-text">
+          <a href="#">CARDIO</a>
+           <a href="#">HIIT</a>
+           <a href="#">YOGA</a>
+           <a href="#">GLUTES</a>
+           <a href="#">BACK</a>
+           <a href="#">ARMS</a>
+           <a href="#">CARDIO</a>
+           <a href="#">ZUMBA</a>
+           <a href="#">STRETCH</a>
+        </div>
+        <section class = "cards">
+            <div class = "card-1"><a href="#""><img src="./assets/HIIT.png"/>
+                <a>HIIT</a></a>
+            </div>
+            <div class = "card-2"><a href="#""><img src="./assets/lowimpactcard.png"/>
+              <a>LOW IMPACT CARDIO</a></a>
+            </div>
+            <div class = "card-3"><a href="#""><img src="./assets/bandresistance.png"/>
+              <a>BAND RESISTANCE</a></a>
+            </div>
+            <div class = "card-4"><a href="#""><img src="./assets/glutebuilder.png"/>
+              <a>GLUTE BUILDER</a></a>
+            </div>
+        </section>
+        </header>
+      </section>
+    </main>
+  </body>
+</html>
